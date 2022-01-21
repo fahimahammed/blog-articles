@@ -31,6 +31,10 @@
     justify-content: space-between;
 }
 
+.fetured-card-container, .subcription, .blogs-container, .footer-links, .footer-copyright{
+    flex-wrap: wrap;
+}
+
 .navbar {
     align-items: center;
     padding: 1rem 1.5rem;
@@ -112,10 +116,6 @@
     margin-left: 435px;
     margin-right:435px;
     padding-bottom: 66px;
-}
-
-.fetured-card-container, .subcription, .blogs-container, .footer-links, .footer-copyright{
-    flex-wrap: wrap;
 }
 
 .fetured-card-container {
